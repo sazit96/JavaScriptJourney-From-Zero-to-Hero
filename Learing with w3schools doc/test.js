@@ -63,18 +63,68 @@
 // }
 
 //JavaScript Objects
-const person = {
-  fname: "Ehosanulislam",
-  lname:"Sazit",
-  age:23,
-  car: {
-    color:"blur",
-    wigth:"400kg"
-  }
-};
-person.county = " Bangladesh";
-delete person.county;
-for(let i in person) {
-  console.log(person[i]);
-}
-console.log(person.car.wigth)
+// const person = {
+//   fname: "Ehosanulislam",
+//   lname:"Sazit",
+//   age:23,
+//   car: {
+//     color:"blur",
+//     wigth:"400kg"
+//   }
+// };
+// person.county = " Bangladesh";
+// delete person.county;
+// for(let i in person) {
+//   console.log(person[i]);
+// }
+// console.log(person.car.wigth)
+
+
+//JavaScript Object Accessors
+// const person = {
+//   firstName: "John",
+//   lastName: "Doe",
+//   language: "en",
+//   get lang() {
+//     return this.language.toUpperCase();
+//   }
+// };
+// console.log(person.lang);
+
+//Javascript Constructor
+// function Person (fast, last, age) {
+//   this.fastName = fast,
+//   this.lastName = last,
+//   this.age = age,
+//   this.fullName = function () {
+//     return this.fastName + " " + this.lastName;
+//   }
+// }
+// Person.prototype.country = "bangladesh";
+// const sazit =new Person("Ehosanul islam ", "Sazit ", 23 ,"ban");
+// const ehosanul =new Person("sazit islam ", "Ehosanul ", 23 ,"ban");
+// console.log(sazit);
+// console.log(ehosanul);
+
+//JavaScript sets
+// const letters = new Set (["a", "b", "c"]);
+// const e = "e";
+// letters.add(e);
+// letters.add("d");
+// console.log(letters);
+// let txt = "";
+// letters.forEach(value =>{
+//   txt += value;
+// });
+// console.log(txt);
+// let iterators = letters.values();
+// for(let a of iterators) {
+//   console.log(a);
+// }
+
+// Javascript maps
+// const fruits = new Map();
+// fruits.set("apples", 500);
+// fruits.set("bananas", 300);
+// fruits.set("oranges", 200);
+// console.log(fruits,  fruits.get("bananas"), fruits.size);
