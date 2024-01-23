@@ -128,3 +128,56 @@
 // fruits.set("bananas", 300);
 // fruits.set("oranges", 200);
 // console.log(fruits,  fruits.get("bananas"), fruits.size);
+
+//Javascript Function
+// const a = function myFunction (a,b) {
+//     return a + b;
+// }
+// let x = a(5,5);
+// console.log(a(5,6));
+// console.log(x);
+// const y = (x,y) => {return x * y}
+// console.log(y(3,3));
+
+// function hi (x , y = 10) {
+//     return x * y;
+// }
+// console.log(hi(10));
+
+// function allsum () {
+//     let sum = 0;
+//     for(let i=0; i<arguments.length; i++) {
+//         sum += arguments[i];
+//     }
+//     return sum;
+// }
+// console.log(allsum(10,20,10,10,50,1));
+
+
+// JavaScript call and apply
+// const person = {
+//     fullName: function(city, country) {
+//       return this.firstName + " " + this.lastName + "," + city + "," + country;
+//     }
+// }
+// const person1 = {
+//     firstName:"John",
+//     lastName: "Doe"
+// }
+// console.log(person.fullName.call(person1, "Dhaka", "Bangladesh"));
+// console.log(Math.max.apply(null,[1,3,4,5,2]);
+
+// Javascript Closures
+// function temporary () {
+//     let count = 0;
+//     return function () {
+//         count += 1;
+//         return count;
+//     }
+// }
+// const add = temporary();
+// add();
+// add();
+// add();
+// console.log(add());
+
