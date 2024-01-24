@@ -181,3 +181,73 @@
 // add();
 // console.log(add());
 
+// JavaScript classes 
+// class car {
+//     constructor(name, year) {
+//         this.name = name;
+//         this.year = year;
+//     }
+// }
+
+// const sazitCar = new car("sazit",2003);
+// const ehosanulCar = new car ("Ehosanul", 2004);
+// console.log(sazitCar);
+// console.log(ehosanulCar);
+// class car {
+//     constructor (brand) {
+//         return this.carName = brand;
+//     }
+
+//     present () {
+//         return `I have this ` + this.carName;
+//     }
+// }
+ 
+// class Model extends car {
+//     constructor (brand, mod) {
+//         super(brand);
+//         this.model = mod;
+//     }
+//     show () {
+//         return this.present() + `, it is a ` + this.model;
+//     }
+// }
+
+// let myCar = new Model ("Ford", "Mustang");
+
+// console.log(myCar.show());
+
+
+// JavaScript callbacks 
+// function myDisplay (same) {
+//     console.log(same);
+// }
+
+// function myCalculator (num1, num2, callbacks) {
+//     let sum = num1 + num2;
+//     callbacks (sum);
+// }
+
+// let result = myCalculator(5, 5, myDisplay);
+
+// setTimeout(function (){console.log(`alhumdulliah`)}, 3000);
+// setInterval(function (){console.log(`inshallah`)}, 2000);
+// console.log(`bismillah`);
+// const Status = true;
+// const promise =  new Promise (function(resolve, reject) {
+//     setTimeout(function(){
+//         if(Status) resolve("alhumdulillah");
+//         else reject("inshallah");
+//     }, 2000)
+// })
+
+// promise 
+//     .then(function(value) {
+//         console.log(value);
+//     })
+//     .catch(function(err){
+//         console.log(err);
+//     })
+
+    //JavaScript html DOM
+// document.getElementById("demo").innerHTML = "Subhanallah";
