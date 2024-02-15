@@ -1,0 +1,12 @@
+var myAge = Number("0o46");
+myAge;
+var myNextAge = Number("39");
+myNextAge;
+var myNextAgee = Number("n/a");
+myNextAgee;
+myAge - "your age";
+isNaN(myAge);
+isNaN(myNextAgee);
+isNaN("alhumdulillah");
+Number.isNaN(myNextAgee);
+Number.isNaN("InshaAllah");
